@@ -4,5 +4,5 @@ We present Resource-Aware Distributed Greedy (RAG), a communication- and computa
 
 ![Drone Simulation](AirSim/docs/rag-readme/drones_in_simenv.png)
 
-![System Flowchart](AirSim/docs/rag-readme/simflowchart.png)
+![System Flowchart](AirSim/docs/rag-readme/simflowchart1.png)
 

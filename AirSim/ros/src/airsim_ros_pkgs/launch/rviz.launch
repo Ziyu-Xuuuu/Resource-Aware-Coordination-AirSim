@@ -1,0 +1,6 @@
+<launch>
+	<!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find airsim_ros_pkgs)/rviz/default.rviz" /> -->
+	<!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find airsim_ros_pkgs)/rviz/urbancity_6quadrotors.rviz" /> -->
+	<!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find airsim_ros_pkgs)/rviz/urbancity_6quadrotorsv3.rviz" /> -->
+	<node type="rviz" name="rviz" pkg="rviz" args="-d $(find airsim_ros_pkgs)/rviz/imagecovering_SS.rviz" />
+</launch>

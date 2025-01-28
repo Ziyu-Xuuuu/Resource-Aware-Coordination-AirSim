@@ -1,0 +1,159 @@
+<launch>
+	<arg name="output" default="log"/>
+	<arg name="publish_clock" default="false"/>
+	<arg name="is_vulkan" default="true"/>
+	<arg name="host" default="localhost" />
+
+	<!-- Drone1 -->
+	<node name="airsim_node_odom_drone1" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone1" />
+	</node>
+
+	<!-- Drone2 -->
+	<node name="airsim_node_odom_drone2" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone2" />
+	</node>
+
+	<!-- Drone3 -->
+	<node name="airsim_node_odom_drone3" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone3" />
+	</node>
+
+	<!-- Drone4 -->
+	<node name="airsim_node_odom_drone4" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone4" />
+	</node>
+
+	<!-- Drone5 -->
+	<node name="airsim_node_odom_drone5" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone5" />
+	</node>
+
+	<!-- Drone6 -->
+	<node name="airsim_node_odom_drone6" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone6" />
+	</node>
+
+	<!-- Drone7 -->
+	<node name="airsim_node_odom_drone7" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone7" />
+	</node>
+
+	<!-- Drone8 -->
+	<node name="airsim_node_odom_drone8" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone8" />
+	</node>
+
+	<!-- Drone9 -->
+	<node name="airsim_node_odom_drone9" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone9" />
+	</node>
+
+	<!-- Drone10 -->
+	<node name="airsim_node_odom_drone10" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone10" />
+	</node>
+
+	<!-- Drone11 -->
+	<node name="airsim_node_odom_drone11" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone11" />
+	</node>
+
+	<!-- Drone12 -->
+	<node name="airsim_node_odom_drone12" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone12" />
+	</node>
+
+	<!-- Drone13 -->
+	<node name="airsim_node_odom_drone13" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone13" />
+	</node>
+
+	<!-- Drone14 -->
+	<node name="airsim_node_odom_drone14" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone14" />
+	</node>
+
+	<!-- Drone15 -->
+	<node name="airsim_node_odom_drone15" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+		<param name="is_vulkan" type="bool" value="true" />
+		<param name="update_airsim_img_response_every_n_sec" type="double" value="0.05" />
+		<param name="update_airsim_control_every_n_sec" type="double" value="0.05" />
+		<param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+		<param name="host_ip" type="string" value="$(arg host)" />
+		<param name="drone_name" type="string" value="Drone15" />
+	</node>
+
+	<!-- Static transforms -->
+	<include file="$(find airsim_ros_pkgs)/launch/static_transforms.launch"/>
+</launch>

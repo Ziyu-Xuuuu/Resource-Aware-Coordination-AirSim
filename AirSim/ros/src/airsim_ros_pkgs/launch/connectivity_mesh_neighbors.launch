@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="airsim_ros_pkgs" name="connectivity_mesh_node" type="get_connectivity_mesh.py" output="screen">
+        <param name="num_drones" type="int" value="5"/>
+        <param name="communication_range" type="int" value="150"/>
+
+    </node>
+</launch>

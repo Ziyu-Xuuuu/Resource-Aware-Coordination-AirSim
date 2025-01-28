@@ -1,0 +1,209 @@
+{
+    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "ClockSpeed": 1,
+    "ViewMode": "NoDisplay",
+    "Vehicles": {
+        "Drone1": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone2": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone3": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone4": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone5": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone6": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone7": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone8": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone9": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone10": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 120
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone11": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone12": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone13": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone14": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone15": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone16": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone17": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone18": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone19": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone20": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone21": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone22": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone23": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone24": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        },
+        "Drone25": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed"
+        }
+    }
+}

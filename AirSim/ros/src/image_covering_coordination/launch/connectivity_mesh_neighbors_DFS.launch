@@ -1,0 +1,9 @@
+<launch>
+<!-- NOTE!! CHECK IF YOU ARE USING RAG OR SG AND ADJUST COMM RANGE BASED ON THAT -->
+    <node pkg="image_covering_coordination" name="connectivity_mesh_node" type="get_connectivity_mesh_DFS.py" output="screen">
+
+        <param name="num_drones" type="int" value="15"/>
+        <param name="communication_range" type="int" value="40"/>
+
+    </node>
+</launch>

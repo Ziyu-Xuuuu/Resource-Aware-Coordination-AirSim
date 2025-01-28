@@ -1,0 +1,34 @@
+
+<launch>
+  <!-- for SG Line Path (LP) graph topology -->
+  <!-- <arg name="algorithm_to_run" default="SG_LP"/> -->
+
+  <!-- for RAG with Allow Disconnected (AD) graph topology -->
+  <!-- <arg name="algorithm_to_run" default="RAG_AD"/> -->
+
+  <!-- for RAG with Line Path (LP) graph topology -->
+  <!-- <arg name="algorithm_to_run" default="RAG_LP"/> -->
+
+  <!-- for RAG with Nearest Neighbors (NN) graph topology -->
+  <arg name="algorithm_to_run" default="RAG_NN"/>
+
+  <arg name="experiment_number" default="0"/>
+
+  <arg name="num_nearest_neighbors" default="3"/>
+
+  <arg name="is_server_experiment" default="0"/>
+  
+  
+  <node pkg="image_covering_coordination" type="total_score_collectiveFOV_logger" name="total_score_logger">
+    <!-- <param name="number_of_drones" value="15"/> -->
+    <param name="number_of_drones" value="45"/>
+    <param name="communication_range" type="double" value="40"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="experiment_number" value="$(arg experiment_number)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+  </node>
+
+</launch>
+
+<!-- how to run:  roslaunch image_covering_coordination image_covering_coordination.launch algorithm_to_run:=RAG_LP experiment_number:=1 num_nearest_neighbors:=5 is_server_experiment:=1 -->

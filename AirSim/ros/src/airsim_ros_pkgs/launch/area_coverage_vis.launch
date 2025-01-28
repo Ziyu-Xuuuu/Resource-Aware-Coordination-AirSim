@@ -1,0 +1,39 @@
+<launch>
+
+  <group ns="drone1">
+    <node pkg="airsim_ros_pkgs" name="image_to_pointcloud_node" type="area_coverage_pointcloud_asyncsub.py" output="screen">
+      <param name="drone_name" type="str" value="drone1"/>
+    </node>
+  </group>
+
+  <group ns="drone2">
+    <node pkg="airsim_ros_pkgs" name="image_to_pointcloud_node" type="area_coverage_pointcloud_asyncsub.py" output="screen">
+      <param name="drone_name" type="str" value="drone2"/>
+    </node>
+  </group>
+
+  <group ns="drone3">
+    <node pkg="airsim_ros_pkgs" name="image_to_pointcloud_node" type="area_coverage_pointcloud_asyncsub.py" output="screen">
+      <param name="drone_name" type="str" value="drone3"/>
+    </node>
+  </group>
+
+  <group ns="drone4">
+    <node pkg="airsim_ros_pkgs" name="image_to_pointcloud_node" type="area_coverage_pointcloud_asyncsub.py" output="screen">
+      <param name="drone_name" type="str" value="drone4"/>
+    </node>
+  </group>
+
+  <group ns="drone5">
+    <node pkg="airsim_ros_pkgs" name="image_to_pointcloud_node" type="area_coverage_pointcloud_asyncsub.py" output="screen">
+      <param name="drone_name" type="str" value="drone5"/>
+    </node>
+  </group>
+
+  <group ns="drone6">
+    <node pkg="airsim_ros_pkgs" name="image_to_pointcloud_node" type="area_coverage_pointcloud_asyncsub.py" output="screen">
+      <param name="drone_name" type="str" value="drone6"/>
+    </node>
+  </group>
+
+</launch>

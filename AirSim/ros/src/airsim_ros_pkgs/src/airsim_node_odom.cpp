@@ -1,0 +1,25 @@
+#include "ros/ros.h"
+#include "airsim_ros_wrapper_odom.h"
+#include <ros/spinner.h>
+
+int main(int argc, char ** argv)
+{
+    ros::init(argc, argv, "airsim_node");
+    ros::NodeHandle nh;
+    ros::NodeHandle nh_private("~");
+
+    std::string host_ip = "localhost";
+    nh_private.getParam("host_ip", host_ip);
+    AirsimROSWrapper airsim_ros_wrapper(nh, nh_private, host_ip);
+
+    if (airsim_ros_wrapper.is_used_img_timer_cb_queue_)
+    {
+        airsim_ros_wrapper.img_async_spinner_.start();
+    }
+
+    ros::MultiThreadedSpinner spinner(4);
+    spinner.spin();
+    // ros::spin();
+
+    return 0;
+} 

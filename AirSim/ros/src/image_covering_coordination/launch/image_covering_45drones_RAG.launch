@@ -1,0 +1,643 @@
+
+<launch>
+  <arg name="algorithm_to_run" default="RAG_NN"/>
+  
+  <arg name="random_seed" default="0"/>
+
+  <arg name="num_nearest_neighbors" default="3"/>
+  
+  <arg name="is_server_experiment" default="1"/>
+
+  
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_1">
+    <param name="drone_name" value="Drone1"/>
+    <param name="robot_index_ID" type="int" value="1"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_1/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_2">
+    <param name="drone_name" value="Drone2"/>
+    <param name="robot_index_ID" type="int" value="2"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_2/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_3">
+    <param name="drone_name" value="Drone3"/>
+    <param name="robot_index_ID" type="int" value="3"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_3/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_4">
+    <param name="drone_name" value="Drone4"/>
+    <param name="robot_index_ID" type="int" value="4"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_4/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_5">
+    <param name="drone_name" value="Drone5"/>
+    <param name="robot_index_ID" type="int" value="5"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_5/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_6">
+    <param name="drone_name" value="Drone6"/>
+    <param name="robot_index_ID" type="int" value="6"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_6/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_7">
+    <param name="drone_name" value="Drone7"/>
+    <param name="robot_index_ID" type="int" value="7"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_7/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_8">
+    <param name="drone_name" value="Drone8"/>
+    <param name="robot_index_ID" type="int" value="8"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_8/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_9">
+    <param name="drone_name" value="Drone9"/>
+    <param name="robot_index_ID" type="int" value="9"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_9/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_10">
+    <param name="drone_name" value="Drone10"/>
+    <param name="robot_index_ID" type="int" value="10"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_10/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_11">
+    <param name="drone_name" value="Drone11"/>
+    <param name="robot_index_ID" type="int" value="11"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_11/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_12">
+    <param name="drone_name" value="Drone12"/>
+    <param name="robot_index_ID" type="int" value="12"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_12/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_13">
+    <param name="drone_name" value="Drone13"/>
+    <param name="robot_index_ID" type="int" value="13"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_13/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_14">
+    <param name="drone_name" value="Drone14"/>
+    <param name="robot_index_ID" type="int" value="14"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_14/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_15">
+    <param name="drone_name" value="Drone15"/>
+    <param name="robot_index_ID" type="int" value="15"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_15/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_16">
+    <param name="drone_name" value="Drone16"/>
+    <param name="robot_index_ID" type="int" value="16"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_16/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_17">
+    <param name="drone_name" value="Drone17"/>
+    <param name="robot_index_ID" type="int" value="17"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_17/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_18">
+    <param name="drone_name" value="Drone18"/>
+    <param name="robot_index_ID" type="int" value="18"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_18/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_19">
+    <param name="drone_name" value="Drone19"/>
+    <param name="robot_index_ID" type="int" value="19"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_19/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_20">
+    <param name="drone_name" value="Drone20"/>
+    <param name="robot_index_ID" type="int" value="20"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_20/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_21">
+    <param name="drone_name" value="Drone21"/>
+    <param name="robot_index_ID" type="int" value="21"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_21/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_22">
+    <param name="drone_name" value="Drone22"/>
+    <param name="robot_index_ID" type="int" value="22"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_22/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_23">
+    <param name="drone_name" value="Drone23"/>
+    <param name="robot_index_ID" type="int" value="23"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_23/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_24">
+    <param name="drone_name" value="Drone24"/>
+    <param name="robot_index_ID" type="int" value="24"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_24/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_25">
+    <param name="drone_name" value="Drone25"/>
+    <param name="robot_index_ID" type="int" value="25"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_25/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_26">
+    <param name="drone_name" value="Drone26"/>
+    <param name="robot_index_ID" type="int" value="26"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_26/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_27">
+    <param name="drone_name" value="Drone27"/>
+    <param name="robot_index_ID" type="int" value="27"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_27/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_28">
+    <param name="drone_name" value="Drone28"/>
+    <param name="robot_index_ID" type="int" value="28"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_28/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_29">
+    <param name="drone_name" value="Drone29"/>
+    <param name="robot_index_ID" type="int" value="29"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_29/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_30">
+    <param name="drone_name" value="Drone30"/>
+    <param name="robot_index_ID" type="int" value="30"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_30/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_31">
+    <param name="drone_name" value="Drone31"/>
+    <param name="robot_index_ID" type="int" value="31"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_31/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_32">
+    <param name="drone_name" value="Drone32"/>
+    <param name="robot_index_ID" type="int" value="32"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_32/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_33">
+    <param name="drone_name" value="Drone33"/>
+    <param name="robot_index_ID" type="int" value="33"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_33/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_34">
+    <param name="drone_name" value="Drone34"/>
+    <param name="robot_index_ID" type="int" value="34"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_34/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_35">
+    <param name="drone_name" value="Drone35"/>
+    <param name="robot_index_ID" type="int" value="35"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_35/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_36">
+    <param name="drone_name" value="Drone36"/>
+    <param name="robot_index_ID" type="int" value="36"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_36/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_37">
+    <param name="drone_name" value="Drone37"/>
+    <param name="robot_index_ID" type="int" value="37"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_37/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_38">
+    <param name="drone_name" value="Drone38"/>
+    <param name="robot_index_ID" type="int" value="38"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_38/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_39">
+    <param name="drone_name" value="Drone39"/>
+    <param name="robot_index_ID" type="int" value="39"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_39/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_40">
+    <param name="drone_name" value="Drone40"/>
+    <param name="robot_index_ID" type="int" value="40"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_40/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_41">
+    <param name="drone_name" value="Drone41"/>
+    <param name="robot_index_ID" type="int" value="41"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_41/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_42">
+    <param name="drone_name" value="Drone42"/>
+    <param name="robot_index_ID" type="int" value="42"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_42/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_43">
+    <param name="drone_name" value="Drone43"/>
+    <param name="robot_index_ID" type="int" value="43"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_43/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_44">
+    <param name="drone_name" value="Drone44"/>
+    <param name="robot_index_ID" type="int" value="44"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_44/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+  <node pkg="image_covering_coordination" type="image_covering_coord_RAG" name="coordination_45">
+    <param name="drone_name" value="Drone45"/>
+    <param name="robot_index_ID" type="int" value="45"/>
+    <param name="number_of_drones" value="45"/>
+    <param name="algorithm_to_run" value="$(arg algorithm_to_run)"/>
+    <param name="random_seed" value="$(arg random_seed)"/>
+    <param name="num_nearest_neighbors" value="$(arg num_nearest_neighbors)"/>
+    <param name="is_server_experiment" value="$(arg is_server_experiment)"/>
+
+    <param name="camera_name" value="front_center"/>
+    <param name="image_topic" value="/camera_45/image"/>
+    <param name="communication_range" type="double" value="40"/>
+  </node>
+
+
+</launch>

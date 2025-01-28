@@ -1,0 +1,32 @@
+{   
+    "SeeDocsAt" : "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+
+    "Vehicles": {
+        "Drone1": {
+          "VehicleType": "SimpleFlight",
+          "X": -906.3, "Y": 22.6, "Z": -1022.03,"Yaw": 45
+        },
+        "Drone2": {
+          "VehicleType": "SimpleFlight",
+          "X": -901.24, "Y": 22.6, "Z": -1026.89,"Yaw": 45
+        },
+        "Drone3": {
+          "VehicleType": "SimpleFlight",
+          "X": -896.15, "Y": 22.6, "Z": -1032.42,"Yaw": 45
+        },
+        "Drone4": {
+          "VehicleType": "SimpleFlight",
+          "X": -901.52, "Y": 22.6, "Z": -1037.67,"Yaw": 45
+        },
+        "Drone5": {
+          "VehicleType": "SimpleFlight",
+          "X": -907.29, "Y": 22.6, "Z": -1032.2,"Yaw": 45
+        },
+        "Drone6": {
+          "VehicleType": "SimpleFlight",
+          "X": -911.74, "Y": 22.6, "Z": -1027.61,"Yaw": 45
+        }
+    }
+}

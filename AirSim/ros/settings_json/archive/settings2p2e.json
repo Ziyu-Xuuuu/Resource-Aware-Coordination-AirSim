@@ -1,0 +1,95 @@
+{   
+    "SeeDocsAt" : "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "ClockSpeed": 1,
+    "ViewMode": "NoDisplay",
+
+    "Vehicles": {
+        "Drone1": {
+          "VehicleType": "SimpleFlight",
+          "DefaultVehicleState": "Armed",
+          "EnableCollisionPassthrough": false,
+          "EnableCollisions": true,
+          "AllowAPIAlways": true,
+          "RC": {
+            "RemoteControlID": 0,
+            "AllowAPIWhenDisconnected": false
+          },
+          "Sensors": {
+            "Imu" : {
+              "SensorType": 2,
+              "Enabled": true
+            }
+          },
+          "Cameras": {
+            "front_center": {
+              "CaptureSettings": [
+                {
+                  "PublishToRos": 0,
+                  "ImageType": 5,
+                  "Width" : 640,
+                  "Height" : 480,
+                  "FOV_Degrees": 90
+                }
+              ]
+            }
+          },
+          "X": -69.38, "Y": 6.5, "Z": -177.74,"Yaw": 0
+        },
+        "Drone2": {
+          "VehicleType": "SimpleFlight",
+          "DefaultVehicleState": "Armed",
+          "EnableCollisionPassthrough": false,
+          "EnableCollisions": true,
+          "AllowAPIAlways": true,
+          "RC": {
+            "RemoteControlID": 0,
+            "AllowAPIWhenDisconnected": false
+          },
+          "Sensors": {
+            "Imu" : {
+              "SensorType": 2,
+              "Enabled": true
+            }
+          },
+          "Cameras": {
+            "front_center": {
+              "CaptureSettings": [
+                {
+                  "PublishToRos": 1,
+                  "ImageType": 0,
+                  "FOV_Degrees": 90
+                }
+              ]
+            } 
+          },
+          "X": -59.81, "Y": 6.5, "Z": -177.74,"Yaw": 0
+        },
+        "Drone3": {
+          "VehicleType": "SimpleFlight",
+          "DefaultVehicleState": "Armed",
+          "EnableCollisionPassthrough": false,
+          "EnableCollisions": true,
+          "AllowAPIAlways": true,
+          "RC": {
+            "RemoteControlID": 0,
+            "AllowAPIWhenDisconnected": false
+          },
+          "X": -50.61, "Y": 6.5, "Z": -177.74,"Yaw": -45
+        },
+        "Drone4": {
+          "VehicleType": "SimpleFlight",
+          "DefaultVehicleState": "Armed",
+          "EnableCollisionPassthrough": false,
+          "EnableCollisions": true,
+          "AllowAPIAlways": true,
+          "RC": {
+            "RemoteControlID": 0,
+            "AllowAPIWhenDisconnected": false
+          },
+          "X": -69.56, "Y": 6.5, "Z": -186.53,"Yaw": -90
+        }
+    }
+
+}

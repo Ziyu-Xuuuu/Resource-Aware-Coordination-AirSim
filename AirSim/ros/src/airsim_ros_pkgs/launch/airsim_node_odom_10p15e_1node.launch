@@ -1,0 +1,22 @@
+
+<launch>
+  <arg name="output" default="log"/>
+  <arg name="publish_clock" default="false"/>
+  <arg name="is_vulkan" default="true"/>
+  <arg name="host" default="localhost" />
+  <arg name="update_control_every_n_sec" default="0.1" />
+
+  
+  <!-- Drone1 -->
+  <node name="airsim_node_odom" pkg="airsim_ros_pkgs" type="airsim_node_odom" output="$(arg output)">
+    <param name="is_vulkan" type="bool" value="true" />
+    <param name="update_airsim_img_response_every_n_sec" type="double" value="0.2" />
+    <param name="update_airsim_control_every_n_sec" type="double" value="$(arg update_control_every_n_sec)" /> 
+    <param name="publish_clock" type="bool" value="$(arg publish_clock)" />
+    <param name="host_ip" type="string" value="$(arg host)" />
+    <param name="drone_name" type="string" value="Drone1" />
+  </node>
+
+  <!-- Static transforms -->
+  <include file="$(find airsim_ros_pkgs)/launch/static_transforms.launch"/>  
+</launch>

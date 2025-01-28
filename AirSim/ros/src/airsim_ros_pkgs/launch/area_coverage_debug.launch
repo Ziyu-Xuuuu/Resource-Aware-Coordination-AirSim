@@ -1,0 +1,7 @@
+<launch> 
+    <node pkg="airsim_ros_pkgs" name="image_to_pointcloud_node" type="area_coverage_pointcloud_asyncsub.py" output="screen">
+        <param name="image_topic" value="/camera/image_raw"/>
+        <param name="odom_topic" value="/ground_truth/state"/>
+        <param name="drone_name" type="str" value="drone1"/>
+    </node>
+</launch>

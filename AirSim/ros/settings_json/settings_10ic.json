@@ -1,0 +1,179 @@
+{
+    "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+    "SettingsVersion": 1.2,
+    "SimMode": "Multirotor",
+    "ClockSpeed": 1,
+    "ViewMode": "NoDisplay",
+    "Vehicles": {
+        "Drone1": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone2": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone3": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone4": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone5": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone6": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone7": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone8": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone9": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        },
+        "Drone10": {
+            "VehicleType": "SimpleFlight",
+            "DefaultVehicleState": "Armed",
+            "EnableCollisionPassthrough": "true",
+            "EnableCollisions": "false",
+            "AllowAPIAlways": "true",
+            "Cameras": {
+                "front_center": {
+                    "CaptureSettings": [
+                        {
+                            "ImageType": 0,
+                            "FOV_Degrees": 90
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

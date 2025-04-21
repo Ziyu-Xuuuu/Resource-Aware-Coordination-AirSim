@@ -83,12 +83,11 @@ The following commands must be executed via terminal and via the Unity Editor.
 
 ## Citation
 If you found our work to be useful, we would really appreciate if you could cite us:
-[1] Xu, Z., Garimella, S. S., & Tzoumas, V. (2024). Communication-and Computation-Efficient Distributed Decision-Making in Multi-Robot Networks. arXiv preprint arXiv:2407.10382.
 ```bibtex
-@article{xu2024communication,
-  title={Communication-and Computation-Efficient Distributed Decision-Making in Multi-Robot Networks},
+@article{xu2025communication,
+  title={Communication-and Computation-Efficient Distributed Submodular Optimization in Robot Mesh Networks},
   author={Xu, Zirui and Garimella, Sandilya Sai and Tzoumas, Vasileios},
-  journal={arXiv preprint arXiv:2407.10382},
-  year={2024}
+  journal={IEEE Transactions on Robotics (TRO)},
+  year={2025}
 }
 ```
